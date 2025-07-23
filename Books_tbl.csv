@@ -1,0 +1,11 @@
+ISBN,Title,Author,Genre,CopiesOwned,Branch
+9781000000001,Book Title 1,Author 164,Non-Fiction,1,South
+9781000000002,Book Title 2,Author 63,Sci-Fi,3,Central
+9781000000003,Book Title 3,Author 174,Children,2,West
+9781000000004,Book Title 4,Author 109,Fiction,1,Central
+9781000000005,Book Title 5,Author 56,Sci-Fi,9,West
+9781000000006,Book Title 6,Author 7,Children,4,West
+9781000000007,Book Title 7,Author 108,Sci-Fi,8,West
+9781000000008,Book Title 8,Author 72,Fiction,3,East
+9781000000009,Book Title 9,Author 88,Fantasy,3,North
+9781000000010,Book Title 10,Author 196,Romance,2,Central
