@@ -32,11 +32,11 @@ Excel-Project/
 ## 3. Import & Clean: `Books.csv`
 **Data → Get Data → From Text/CSV → Transform Data**
 
-![Open data](https://github.com/Xan-d-man07/Excel-Project/blob/main/Reports/Day_1_stuff/Day_1_screenshots/1-Selecting_data_tab_.png?raw=true)
+![Open data](./Day_1_screenshots/0-Transform_data.png)
 
-![Transform Data](https://github.com/Xan-d-man07/Excel-Project/blob/main/Reports/Day_1_stuff/Day_1_screenshots/0-Transform_data.png?raw=true)
+![Transform Data](./Day_1_screenshots/1-Selecting_data_tab_.png)
 
-![Transform Data](.\Day_1_screenshots\0-Transform_data.png)
+
 
 
 Power Query steps:
