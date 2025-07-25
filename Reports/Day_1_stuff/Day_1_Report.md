@@ -33,6 +33,7 @@ Excel-Project/
 **Data → Get Data → From Text/CSV → Transform Data**
 ![Transform Data](Reports/Day_1_stuff/Day_1_screenshots/0-Transform_data.png)
 
+
 ![Transform Data](Reports/Day_1_stuff/Day_1_screenshots/1-Selecting_data_tab_.png)
 
 Power Query steps:
