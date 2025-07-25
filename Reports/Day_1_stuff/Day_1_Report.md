@@ -36,6 +36,9 @@ Excel-Project/
 
 ![Transform Data](https://github.com/Xan-d-man07/Excel-Project/blob/main/Reports/Day_1_stuff/Day_1_screenshots/0-Transform_data.png?raw=true)
 
+![Transform Data](./Day_1_screenshots/0-Transform_data.png)
+
+
 gg
 
 Power Query steps:
