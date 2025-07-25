@@ -78,6 +78,29 @@ Power Query steps:
 ![Custom Column](./Day_1_screenshots/6-create_a_custom_column.png)
 ![Formula Used](./Day_1_screenshots/7-formula_used_to_create_column.png)
 
+### Breakdown of the formula
+---
+We want to know how many days a book was checked out.
+
+That’s simply: ReturnDate – OutDate.
+
+But sometimes a book isn’t back yet, so ReturnDate is blank (null). In that case, we can’t subtract, so we just leave the result blank (null).
+
+
+if [ReturnDate] = null then null
+
+“If there’s no return date, don’t try to calculate—just leave this cell empty.”
+
+else Duration.Days([ReturnDate] - [OutDate])
+
+“Otherwise, subtract OutDate from ReturnDate, and convert that time difference into a number of days.”
+
+Duration.Days(...): Power Query stores dates as date/time “durations.” This function extracts just the count of days, so you see a simple whole number like 12.
+
+
+Otherwise without the Duration.Days() function the result would be `12:00:00:00`, in the format days:hours:mins:sec
+
+
 
 - Set **DaysOut** to **Whole Number**.  
 - Loaded as **connection only** + **to Data Model**.
